@@ -77,10 +77,8 @@ const NavbarThree = () => {
                 <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link
-                      href="/index-2/"
-                      className={`nav-link ${
-                        currentPath == "/index-2/" && "active"
-                      }`}
+                      href="/"
+                      className={`nav-link ${currentPath == "/" && "active"}`}
                     >
                       Home
                     </Link>
