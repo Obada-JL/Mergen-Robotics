@@ -16,7 +16,7 @@ export default function AboutUs() {
         homePageUrl="/"
         homePageText="Home"
         activePageText="About Us"
-        bgImg="/images/page-title-bg1.jpg"
+        bgImg="/images/aboutus.jpg"
       />
 
       <AboutContact />

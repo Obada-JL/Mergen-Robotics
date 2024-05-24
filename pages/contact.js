@@ -14,7 +14,7 @@ export default function Contact() {
         homePageUrl="/"
         homePageText="Home"
         activePageText="Contact"
-        bgImg="/images/page-title-bg3.jpg"
+        bgImg="/images/contact-us3.jpg"
       />
 
       <ContactFormContent />

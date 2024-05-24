@@ -14,7 +14,7 @@ const Projects = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="Projects"
-        bgImg="/images/page-title-bg1.jpg"
+        bgImg="/images/services.jpg"
       />
 
       <ProjectsCard />
