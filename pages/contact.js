@@ -10,10 +10,10 @@ export default function Contact() {
       <NavbarTwo />
 
       <PageBanner
-        pageTitle="Contact"
+        pageTitle="İletişim"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Contact"
+        activePageText="İletişim"
         bgImg="/images/contact-us3.jpg"
       />
 

@@ -12,10 +12,10 @@ export default function AboutUs() {
       <NavbarTwo />
 
       <PageBanner
-        pageTitle="About Us"
+        pageTitle="Hakkımızda"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="About Us"
+        activePageText="Hakkımızda"
         bgImg="/images/aboutus.jpg"
       />
 

@@ -10,10 +10,10 @@ const ServicesTwo = () => {
       <NavbarTwo />
 
       <PageBanner
-        pageTitle="Services"
+        pageTitle="Sektörler"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Services"
+        activePageText="Sektörler"
         bgImg="/images/services.jpg"
       />
       <Services />
