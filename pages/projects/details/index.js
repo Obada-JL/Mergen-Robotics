@@ -8,13 +8,13 @@ const ProjectsDetails = () => {
   return (
     <>
       <NavbarTwo />
-      
+
       <PageBanner
         pageTitle="Projects Details"
         homePageUrl="/"
         homePageText="Home"
         activePageText="Projects Details"
-        bgImg="/images/page-title-bg2.jpg"
+        bgImg="/images/services.jpg"
       />
 
       <ProjectsDetailsContent />

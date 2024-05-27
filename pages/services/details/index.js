@@ -14,7 +14,7 @@ const ServiceDetails = () => {
         homePageUrl="/"
         homePageText="Home"
         activePageText="Service Details"
-        bgImg="/images/page-title-bg2.jpg"
+        bgImg="/images/services.jpg"
       />
 
       <ServiceDetailsContent />
