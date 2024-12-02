@@ -254,10 +254,16 @@ const Services = () => {
       <div className="services-section bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>We Offer Professional Solutions</h2>
+            <h2>Uzmanlık Alanlarımız</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              {/* Yerli üretim çözümleriyle farklı sektörlere yönelik yenilikçi ve
+              sürdürülebilir sistemler sunarak, iş süreçlerini daha verimli ve
+              güvenli hale getiriyoruz. Teknoloji ve mühendislik alanındaki
+              derin bilgi birikimimizle, her projeyi özelleştirerek yüksek
+              performanslı çözümler üretiyoruz. */}
+              Yerli çözümlerle farklı sektörlere yönelik yenilikçi ve
+              sürdürülebilir sistemler sunarak, iş süreçlerini daha verimli ve
+              güvenli hale getiriyoruz.
             </p>
           </div>
 
@@ -270,7 +276,7 @@ const Services = () => {
                     onClick={() => handleTabClick(0)}
                   >
                     <i className="flaticon-income"></i>
-                    <span>Data Analysis</span>
+                    <span>Elektronik Kart Tasarımı</span>
                   </li>
 
                   <li
@@ -278,7 +284,7 @@ const Services = () => {
                     onClick={() => handleTabClick(1)}
                   >
                     <i className="flaticon-automatic"></i>
-                    <span>Automation Optimization</span>
+                    <span>Elektronik Kart Üretimi</span>
                   </li>
 
                   <li
@@ -286,7 +292,7 @@ const Services = () => {
                     onClick={() => handleTabClick(2)}
                   >
                     <i className="flaticon-locked"></i>
-                    <span>Security & Surveillance</span>
+                    <span>Gömülü Sistemler</span>
                   </li>
 
                   <li
@@ -294,7 +300,7 @@ const Services = () => {
                     onClick={() => handleTabClick(3)}
                   >
                     <i className="flaticon-molecular"></i>
-                    <span>Health & Manufacturing</span>
+                    <span>3D Baskı</span>
                   </li>
 
                   <li
@@ -302,7 +308,7 @@ const Services = () => {
                     onClick={() => handleTabClick(4)}
                   >
                     <i className="flaticon-gear"></i>
-                    <span>Software Engineers</span>
+                    <span>3D Tasarımı</span>
                   </li>
 
                   <li
@@ -310,7 +316,7 @@ const Services = () => {
                     onClick={() => handleTabClick(5)}
                   >
                     <i className="flaticon-ceo"></i>
-                    <span>IT Professional</span>
+                    <span>Elektronik Kart Dizgi Hizmeti</span>
                   </li>
                 </ul>
               </div>

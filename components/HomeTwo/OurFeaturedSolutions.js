@@ -8,10 +8,11 @@ const OurFeaturedSolutions = () => {
       <div className="featured-solutions-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Our Featured Solutions</h2>
+            <h2>Faaliyet Alanlarımız</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Yerli üretim çözümleri ile teknolojiye yön veriyor, sektörlerdeki
+              verimliliği artırmak için özgün ve yenilikçi sistemler
+              geliştiriyoruz.
             </p>
           </div>
 
@@ -32,11 +33,19 @@ const OurFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/projects/details">Robotic Automation</Link>
+                  <Link href="/projects/details">Geçiş Kontrol Sistemleri</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore. Ut enim ad minim veniam.
+                  {/* Güvenliği en üst düzeye çıkaran kartlı geçiş sistemlerimiz,
+                  işletmelerin ve kamu alanlarının giriş-çıkışlarını kolayca
+                  yönetmelerini sağlar. Her işletmeye özel tasarlanabilen
+                  çözümlerimizle, çalışanlar ve ziyaretçiler için güvenli, hızlı
+                  ve etkili bir erişim kontrolü sunuyoruz. */}
+                  Yerli üretim kartlı geçiş sistemlerimiz, güvenliği ön planda
+                  tutarak işletmelerin ve kamu alanlarının erişim kontrollerini
+                  en güvenli şekilde yönetmelerini sağlar. Kendi tasarımımız
+                  olan bu sistemler, esnek ve ölçeklenebilir çözümler sunarak
+                  her ihtiyaca uygun uyarlama imkânı sağlar.
                 </p>
                 <Link href="/projects/details" className="learn-more-btn">
                   Read More
@@ -60,11 +69,15 @@ const OurFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/projects/details">Machine Learning</Link>
+                  <Link href="/projects/details">Robotik Sistemler</Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore. Ut enim ad minim veniam.
+                  Küçük ölçekli üretim tesisleri ve endüstriyel projeler için
+                  yenilikçi robotik çözümler sunuyoruz. Otomatikleştirilmiş
+                  sistemlerimizle, işletmelerin daha hızlı, güvenilir ve düşük
+                  maliyetle çalışmasını sağlıyoruz. Esnek robotik
+                  teknolojilerimiz, her türlü üretim hattına uyum sağlayarak
+                  verimliliği artırır.
                 </p>
                 <Link href="/projects/details" className="learn-more-btn">
                   Read More
@@ -88,7 +101,7 @@ const OurFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/projects/details">Cognitive Engagement</Link>
+                  <Link href="/projects/details">Eğitim Teknolojileri</Link>
                 </h3>
                 <p>
                   Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod

@@ -27,9 +27,11 @@ const Footer = () => {
                     />
                   </Link>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud.
+                    Yerli üretim odaklı teknoloji firmamız, mühendislik ve
+                    yenilikçi çözümlerle iş süreçlerini daha verimli, güvenli ve
+                    sürdürülebilir hale getirmektedir. Her projeye özel
+                    geliştirdiğimiz sistemlerle, müşterilerimize katma değer
+                    sağlayarak sektördeki ihtiyaçlara yön veriyoruz.
                   </p>
                 </div>
 

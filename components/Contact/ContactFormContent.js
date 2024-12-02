@@ -20,12 +20,24 @@ const ContactFormContent = () => {
             <div className="row align-items-center">
               <div className="col-lg-5 col-md-12">
                 <div className="contact-image">
-                  <Image
+                  {/* <Image
                     src="/images/contact.png"
                     alt="image"
                     width={395}
                     height={480}
-                  />
+                  /> */}
+                  <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
+                  <iframe
+                    src="https://lottie.host/embed/66126a9b-43a7-4083-887e-be5eb3c28e66/FgAi5puGGZ.json"
+                    background="##FFFFFF"
+                    speed="1"
+                    style={{ width: "450px", height: "450px" }}
+                    loop
+                    controls
+                    autoplay
+                    direction="1"
+                    mode="normal"
+                  ></iframe>
                 </div>
               </div>
 
@@ -42,7 +54,7 @@ const ContactFormContent = () => {
               <h2>
                 <span className="number">+088 130 629 8615</span>
                 <span className="or">OR</span>
-                <span className="email">hello@bariton.com</span>
+                <span className="email">info@mergerrobotics.com</span>
               </h2>
 
               <ul className="social">

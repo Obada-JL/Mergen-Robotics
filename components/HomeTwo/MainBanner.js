@@ -15,7 +15,7 @@ const MainBanner = () => {
                   data-aos-duration="1000"
                   data-aos-delay="200"
                 >
-                  World’s Leading AI & Machine Learning Company
+                  İleri Teknoloji ve Dijital Dönüşümde Güvenilir Çözüm Ortağı
                 </h1>
 
                 <p
@@ -23,13 +23,14 @@ const MainBanner = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                 >
-                  ML today are able to supply needful of help, information, and
-                  positive experience of maintaining intimacy with customers.
-                  Eventually, chatbot ideas bring a pleasant experience of all
-                  these qualities into the conversation.
+                  Yerli üretim odaklı teknoloji firmamız, mühendislik ve
+                  yenilikçi çözümlerle iş süreçlerini daha verimli, güvenli ve
+                  sürdürülebilir hale getirmektedir. Her projeye özel
+                  geliştirdiğimiz sistemlerle, müşterilerimize katma değer
+                  sağlayarak sektördeki ihtiyaçlara yön veriyoruz.
                 </p>
 
-                <div
+                {/* <div
                   className="btn-box"
                   data-aos="fade-in"
                   data-aos-duration="1000"
@@ -41,7 +42,7 @@ const MainBanner = () => {
                   <Link href="/contact" className="optional-btn">
                     Get Started Free
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
 
