@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[213],{9893:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/shop/single-products",function(){return _(7358)}])},7358:function(n,u,_){"use strict";_.r(u),_(7294),u.default=()=>{}}},function(n){n.O(0,[888,774,179],function(){return n(n.s=9893)}),_N_E=n.O()}]);
