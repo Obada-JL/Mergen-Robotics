@@ -22,14 +22,11 @@ const HealthAndManufacturing = () => {
 
         <div className="content">
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomized words which don't look even slightly
-            believable. If you are going to use a passage.
+Üretmiş olduğumuz her türlü ürün ve hizmette kendi yazılımlarımızı kullanıyoruz. İhtiyacınıza özel web yazılım, mobil uygulama ve gömülü yazılım projelerini birlikte geliştiriyoruz.
           </p>
 
-          <Link href="/services/details" className="btn btn-primary">
-            Read More
+          <Link href="/services/details-software" className="btn btn-primary">
+            Daha Fazlası
           </Link>
         </div>
       </div>

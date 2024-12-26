@@ -7,10 +7,9 @@ const PartnerContent = () => {
       <div className="partner-area ptb-110 bg-f2f6f9">
         <div className="container">
           <div className="section-title">
-            <h2>Featured Customers & Partners</h2>
+            <h2>Referanslarımız</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Faaliyet gösterdiğimiz alanlarda çözüm ortağı olduğumuz müşteri ve partnerlerimiz
             </p>
           </div>
 

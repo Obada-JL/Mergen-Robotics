@@ -22,14 +22,11 @@ const ITProfessional = () => {
 
         <div className="content">
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomized words which don't look even slightly
-            believable. If you are going to use a passage.
+            Ürünlerimizin 3B tasarımlarını ve mekanik yapılarını özgün olarak tasarlıyor, prototip üretiminden seri üretime kadar olan tüm üretim sürecini biz yapıyoruz.
           </p>
 
-          <Link href="/services/details" className="btn btn-primary">
-            Read More
+          <Link href="/services/details-3d" className="btn btn-primary">
+            Daha Fazlası
           </Link>
         </div>
       </div>

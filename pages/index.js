@@ -15,8 +15,9 @@ export default function HomeTwo() {
 
       <MainBanner />
 
-      <OurFeaturedSolutions />
 
+
+      <OurFeaturedSolutions />
       <AboutUs />
 
       <Services />

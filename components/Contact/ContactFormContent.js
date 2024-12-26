@@ -8,11 +8,10 @@ const ContactFormContent = () => {
       <section className="contact-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <span>Message Us</span>
-            <h2>Drop us Message for any Query</h2>
+            <span>Bize Ulaşın</span>
+            <h2>İstekleriniz için Bize Mesaj Gönderin</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             İstek, proje ve işbirlikleriniz için bize aşağıdaki formu kullanarak ulaşabilirsiniz.
             </p>
           </div>
 
@@ -50,17 +49,17 @@ const ContactFormContent = () => {
           {/* Contact info */}
           <div className="contact-info">
             <div className="contact-info-content">
-              <h3>Contact us by Phone Number or Email Address</h3>
+              <h3>Telefon veya Eposta ile bize ulaşabilirsiniz.</h3>
               <h2>
-                <span className="number">+088 130 629 8615</span>
-                <span className="or">OR</span>
-                <span className="email">info@mergerrobotics.com</span>
+                <span className="number">+90 539 931 4439</span>
+                <span className="or">VEYA</span>
+                <span className="email">info@mergenrobotics.com</span>
               </h2>
 
               <ul className="social">
                 <li>
                   <a
-                    href="https://twitter.com/"
+                    href="https://twitter.com/mergenrobotics"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -69,7 +68,7 @@ const ContactFormContent = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.youtube.com/"
+                    href="https://www.youtube.com/mergenrobotics"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -78,7 +77,7 @@ const ContactFormContent = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/"
+                    href="https://www.facebook.com/mergenrobotics"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -87,7 +86,7 @@ const ContactFormContent = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/mergenrobotics"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -96,7 +95,7 @@ const ContactFormContent = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/mergenrobotics"
                     target="_blank"
                     rel="noreferrer"
                   >

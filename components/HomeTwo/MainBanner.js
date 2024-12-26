@@ -15,7 +15,8 @@ const MainBanner = () => {
                   data-aos-duration="1000"
                   data-aos-delay="200"
                 >
-                  İleri Teknoloji ve Dijital Dönüşümde Güvenilir Çözüm Ortağı
+                  İleri Teknoloji,
+                  Akıllı Çözümler
                 </h1>
 
                 <p
@@ -23,11 +24,14 @@ const MainBanner = () => {
                   data-aos-duration="1000"
                   data-aos-delay="300"
                 >
-                  Yerli üretim odaklı teknoloji firmamız, mühendislik ve
+                  {/* Yerli üretim odaklı teknoloji firmamız, mühendislik ve
                   yenilikçi çözümlerle iş süreçlerini daha verimli, güvenli ve
                   sürdürülebilir hale getirmektedir. Her projeye özel
                   geliştirdiğimiz sistemlerle, müşterilerimize katma değer
-                  sağlayarak sektördeki ihtiyaçlara yön veriyoruz.
+                  sağlayarak sektördeki ihtiyaçlara yön veriyoruz. */}
+                  Mergen Robotics, yenilikçi Ar-Ge projeleri ve yüksek katma değerli teknolojik çözümleriyle; IoT,
+                  gömülü sistemler, robotik sistemler ve eğitim teknolojileri alanlarında,
+                  hızlı, dinamik ve kullanıcı dostu yaklaşımıyla bireysel ve kurumsal ihtiyaçlara özel çözümler sunuyor.
                 </p>
 
                 {/* <div

@@ -13,20 +13,22 @@ const DataAnalysis = () => {
       >
         <div className="image">
           <Image
-            src="/images/services-img1.png"
+            src="/images/iot.png"
             alt="image"
-            width={569}
+            width={700}
             height={456}
+            style={{ height: "auto" }}
           />
         </div>
 
         <div className="content">
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomized words which don't look even slightly
-            believable. If you are going to use a passage.
+          Akıllı cihazlardan endüstriyel otomasyona 
+          kadar geniş bir yelpazede IoT ve gömülü sistem projeleri geliştiriyoruz.
           </p>
+          <Link href="/services/details-iot" className="btn btn-primary">
+            Daha Fazlası
+          </Link>
         </div>
       </div>
     </>

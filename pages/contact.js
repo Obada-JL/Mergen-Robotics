@@ -12,7 +12,7 @@ export default function Contact() {
       <PageBanner
         pageTitle="İletişim"
         homePageUrl="/"
-        homePageText="Home"
+        homePageText="Anasayfa"
         activePageText="İletişim"
         bgImg="/images/contact-us3.jpg"
       />

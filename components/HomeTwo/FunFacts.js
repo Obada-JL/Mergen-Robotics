@@ -8,10 +8,9 @@ const FunFacts = () => {
       <div className="fun-facts-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>We completed 2500+ Projects Yearly Successfully & counting</h2>
+            <h2>Arge ve Üretim Gücümüzle Başardıklarımız</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
             </p>
           </div>
 
@@ -24,9 +23,9 @@ const FunFacts = () => {
                 data-aos-delay="100"
               >
                 <h3>
-                  5000 <span className="sign-icon">+</span>
+                  10 <span className="sign-icon">+</span>
                 </h3>
-                <p>Downloaded</p>
+                <p>Farklı Ürün</p>
               </div>
             </div>
 
@@ -38,9 +37,9 @@ const FunFacts = () => {
                 data-aos-delay="200"
               >
                 <h3>
-                  3000 <span className="sign-icon">+</span>
+                  50 <span className="sign-icon">+</span>
                 </h3>
-                <p>Feedback</p>
+                <p>Müşteri</p>
               </div>
             </div>
 
@@ -52,9 +51,9 @@ const FunFacts = () => {
                 data-aos-delay="300"
               >
                 <h3>
-                  500 <span className="sign-icon">+</span>
+                  1000 <span className="sign-icon">+</span>
                 </h3>
-                <p>Workers</p>
+                <p>Sipariş</p>
               </div>
             </div>
 
@@ -66,19 +65,19 @@ const FunFacts = () => {
                 data-aos-delay="400"
               >
                 <h3>
-                  70 <span className="sign-icon">+</span>
+                  5000 <span className="sign-icon">+</span>
                 </h3>
-                <p>Contributors</p>
+                <p>Kullanıcı</p>
               </div>
             </div>
           </div>
 
           <div className="contact-cta-box">
-            <h3>Have any question about us?</h3>
-            <p>Don't hesitate to contact us.</p>
+            <h3>Sormak istediğiniz bir şey mi var?</h3>
+            <p>İletişime geçmekten çekinmeyin.</p>
 
             <Link href="/contact" className="btn btn-primary">
-              Contact Us<span></span>
+              İletişime Geç<span></span>
             </Link>
           </div>
         </div>

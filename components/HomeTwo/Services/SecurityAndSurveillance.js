@@ -22,14 +22,11 @@ const SecurityAndSurveillance = () => {
 
         <div className="content">
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomized words which don't look even slightly
-            believable. If you are going to use a passage.
+          IoT tabanlı STEM mobil eğitim robotlarıyla teknoloji temelli eğitimde fark yaratıyoruz.
           </p>
 
-          <Link href="/services/details" className="btn btn-primary">
-            Read More
+          <Link href="/services/details-edu" className="btn btn-primary">
+            Daha Fazlası
           </Link>
         </div>
       </div>

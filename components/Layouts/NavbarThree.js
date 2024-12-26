@@ -52,7 +52,7 @@ const NavbarThree = () => {
                   src="/images/mergen logo.png"
                   className="optional-logo"
                   alt="logo"
-                  width={130}
+                  width={250}
                   height={25}
                   style={{ height: "auto" }}
                 />
@@ -100,14 +100,14 @@ const NavbarThree = () => {
                         currentPath == "/services/two/" && "active"
                       }`}
                     >
-                      Sektörler
+                      Hizmetlerimiz
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/projects/"
+                      href="/services/"
                       className={`nav-link ${
-                        currentPath == "/projects/" && "active"
+                        currentPath == "/services/" && "active"
                       }`}
                     >
                       Projeler

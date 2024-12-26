@@ -10,10 +10,10 @@ const Projects = () => {
       <NavbarTwo />
 
       <PageBanner
-        pageTitle="Projeler"
+        pageTitle="Ürünler"
         homePageUrl="/"
-        homePageText="Home"
-        activePageText="Projeler"
+        homePageText="Anasayfa"
+        activePageText="Ürünler"
         bgImg="/images/services.jpg"
       />
 

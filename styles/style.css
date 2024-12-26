@@ -5151,7 +5151,7 @@ Footer Area CSS
 }
 
 .copyright-area {
-  background-color: #000000;
+  background-color: #96262600;
   margin-top: 70px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -5226,7 +5226,7 @@ Footer Area CSS
   width: 1px;
   height: 100%;
   top: 0;
-  left: 50%;
+  left: 55%;
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
 }

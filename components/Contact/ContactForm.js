@@ -58,7 +58,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="name"
-                placeholder="Name"
+                placeholder="Ad - Soyad"
                 className="form-control"
                 value={contact.name}
                 onChange={handleChange}
@@ -71,7 +71,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="email"
-                placeholder="Email"
+                placeholder="Eposta"
                 className="form-control"
                 value={contact.email}
                 onChange={handleChange}
@@ -84,7 +84,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="number"
-                placeholder="Phone number"
+                placeholder="Telefon Numarası"
                 className="form-control"
                 value={contact.number}
                 onChange={handleChange}
@@ -97,7 +97,7 @@ const ContactForm = () => {
               <input
                 type="text"
                 name="subject"
-                placeholder="Subject"
+                placeholder="Konu"
                 className="form-control"
                 value={contact.subject}
                 onChange={handleChange}
@@ -111,7 +111,7 @@ const ContactForm = () => {
                 name="text"
                 cols="30"
                 rows="6"
-                placeholder="Write your message..."
+                placeholder="Mesajınızı yazın..."
                 className="form-control"
                 value={contact.text}
                 onChange={handleChange}
@@ -121,7 +121,7 @@ const ContactForm = () => {
           </div>
           <div className="col-lg-12 col-sm-12">
             <button type="submit" className="btn btn-primary">
-              Send Message
+              Gönder
             </button>
           </div>
         </div>

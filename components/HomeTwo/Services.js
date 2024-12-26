@@ -254,16 +254,18 @@ const Services = () => {
       <div className="services-section bg-f2f6f9 ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Uzmanlık Alanlarımız</h2>
+            <h2>Yeteneklerimiz İle Teknolojide Çözüm Ortağınız Oluyoruz</h2>
             <p>
               {/* Yerli üretim çözümleriyle farklı sektörlere yönelik yenilikçi ve
               sürdürülebilir sistemler sunarak, iş süreçlerini daha verimli ve
               güvenli hale getiriyoruz. Teknoloji ve mühendislik alanındaki
               derin bilgi birikimimizle, her projeyi özelleştirerek yüksek
               performanslı çözümler üretiyoruz. */}
-              Yerli çözümlerle farklı sektörlere yönelik yenilikçi ve
+              {/* Yerli çözümlerle farklı sektörlere yönelik yenilikçi ve
               sürdürülebilir sistemler sunarak, iş süreçlerini daha verimli ve
-              güvenli hale getiriyoruz.
+              güvenli hale getiriyoruz. */}
+              Mergen Robotics olarak, teknolojinin her alanında yenilikçi ve yüksek katma değerli çözümler sunuyoruz. 
+              Uzman ekibimizin sağladığı hizmet ve ürünler ile, bireysel ve kurumsal ihtiyaçlara özel, dünya standartlarında çözümler üretiyoruz.
             </p>
           </div>
 
@@ -276,7 +278,7 @@ const Services = () => {
                     onClick={() => handleTabClick(0)}
                   >
                     <i className="flaticon-income"></i>
-                    <span>Elektronik Kart Tasarımı</span>
+                    <span>IoT ve Gömülü Sistem</span>
                   </li>
 
                   <li
@@ -284,7 +286,7 @@ const Services = () => {
                     onClick={() => handleTabClick(1)}
                   >
                     <i className="flaticon-automatic"></i>
-                    <span>Elektronik Kart Üretimi</span>
+                    <span>Geçiş Kontrol Sistemleri</span>
                   </li>
 
                   <li
@@ -292,7 +294,7 @@ const Services = () => {
                     onClick={() => handleTabClick(2)}
                   >
                     <i className="flaticon-locked"></i>
-                    <span>Gömülü Sistemler</span>
+                    <span>Eğitim Teknolojileri ve STEAM</span>
                   </li>
 
                   <li
@@ -300,7 +302,7 @@ const Services = () => {
                     onClick={() => handleTabClick(3)}
                   >
                     <i className="flaticon-molecular"></i>
-                    <span>3D Baskı</span>
+                    <span>Web, Mobil ve Gömülü Yazılım</span>
                   </li>
 
                   <li
@@ -308,7 +310,7 @@ const Services = () => {
                     onClick={() => handleTabClick(4)}
                   >
                     <i className="flaticon-gear"></i>
-                    <span>3D Tasarımı</span>
+                    <span>PCB Tasarım ve Üretim</span>
                   </li>
 
                   <li
@@ -316,7 +318,7 @@ const Services = () => {
                     onClick={() => handleTabClick(5)}
                   >
                     <i className="flaticon-ceo"></i>
-                    <span>Elektronik Kart Dizgi Hizmeti</span>
+                    <span>3B Tasarım ve Üretim</span>
                   </li>
                 </ul>
               </div>

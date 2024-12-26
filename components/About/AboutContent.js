@@ -48,33 +48,28 @@ const AboutContact = () => {
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="about-text">
-                  <h3>Our History</h3>
+                  <h3>Biz Kimiz</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                    Mergen Robotics 2021 yılında Gaziantep Teknopark'ta, birçok alanda Ar-Ge faaliyetleri yürütmek adına genç girişimciler tarafından kurulmuştur.
                   </p>
                 </div>
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="about-text">
-                  <h3>Our Mission</h3>
+                  <h3>Misyon</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                    Tasarım, Ar-Ge ve inovasyon kabiliyetlerine sahip genç, dinamik ve tecrübeli ekibimizle, dışa bağımlılığı azaltacak, kullanıcı dostu, fark yaratan ve
+                    dünya standartlarında teknolojiler geliştirmek ve hizmetler sunmak.
                   </p>
                 </div>
               </div>
 
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="about-text">
-                  <h3>Who we are</h3>
+                  <h3>Vizyon</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                    Sürekli yenilik ve gelişimle faaliyet gösterdiğimiz sektörlerde öncü olarak, müşterilerimize sürdürülebilir, akıllı ve güvenilir çözümler sunmak.
                   </p>
                 </div>
               </div>

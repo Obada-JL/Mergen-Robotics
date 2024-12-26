@@ -31,44 +31,46 @@ const AboutUs = () => {
                 data-aos-duration="1000"
                 data-aos-delay="600"
               >
-                <h2>Engaging New Audiences through Smart Approach</h2>
+                <h2>Biz Kimiz?</h2>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage.
+                  Mergen Robotics’in vizyonunu, değerlerini ve sahip olduğu yetenekleriyle müşterilerine olan katkılarını daha yakından inceleyin.
                 </p>
 
                 <ul className="features-list">
                   <li>
                     <span>
-                      <i className="flaticon-tick"></i> Classification
+                      <i className="flaticon-tick"></i> ARGE - ÜRGE Gücü
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="flaticon-tick"></i> Examples
+                      <i className="flaticon-tick"></i> Hızlı ve Dinamik Ekip
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="flaticon-tick"></i> Extensions
+                      <i className="flaticon-tick"></i> Yenilikçi, Üstün Teknoloji
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="flaticon-tick"></i> Extraction
+                      <i className="flaticon-tick"></i> Güvenilir ve Kullanıcı Dostu Ürünler
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="flaticon-tick"></i> Selection
+                      <i className="flaticon-tick"></i> Endüstriyel Tasarım ve Üretim Yetkinliği
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <i className="flaticon-tick"></i> Danışmanlık ve Eğitim Hizmetleri
                     </span>
                   </li>
                 </ul>
 
                 <Link href="/about-us" className="btn btn-primary">
-                  Discover More
+                  Bizi Tanıyın.
                 </Link>
               </div>
             </div>

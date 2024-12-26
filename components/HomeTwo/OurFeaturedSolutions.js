@@ -8,10 +8,9 @@ const OurFeaturedSolutions = () => {
       <div className="featured-solutions-area ptb-110">
         <div className="container">
           <div className="section-title">
-            <h2>Faaliyet Alanlarımız</h2>
+            <h2>Ürünlerimiz</h2>
             <p>
-              Yerli üretim çözümleri ile teknolojiye yön veriyor, sektörlerdeki
-              verimliliği artırmak için özgün ve yenilikçi sistemler
+              Çözümlerimiz ile faaliyet gösterdiğimiz alanlarda özgün ve yenilikçi sistemler
               geliştiriyoruz.
             </p>
           </div>
@@ -33,7 +32,7 @@ const OurFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/projects/details">Geçiş Kontrol Sistemleri</Link>
+                  <Link href="/projects/details-bigpass">BigPass Geçiş Kontrol Sistemi</Link>
                 </h3>
                 <p>
                   {/* Güvenliği en üst düzeye çıkaran kartlı geçiş sistemlerimiz,
@@ -41,14 +40,16 @@ const OurFeaturedSolutions = () => {
                   yönetmelerini sağlar. Her işletmeye özel tasarlanabilen
                   çözümlerimizle, çalışanlar ve ziyaretçiler için güvenli, hızlı
                   ve etkili bir erişim kontrolü sunuyoruz. */}
-                  Yerli üretim kartlı geçiş sistemlerimiz, güvenliği ön planda
-                  tutarak işletmelerin ve kamu alanlarının erişim kontrollerini
-                  en güvenli şekilde yönetmelerini sağlar. Kendi tasarımımız
-                  olan bu sistemler, esnek ve ölçeklenebilir çözümler sunarak
-                  her ihtiyaca uygun uyarlama imkânı sağlar.
+                  Güncel teknolojik altyapısı ve kolay entegrasyonu ile güvenliği ön planda
+                  tutarak işletmelerin ve kamu alanlarının erişim kontrollerini 
+                  kolay şekilde yönetmelerini sağlar. BigPass Esnek ve ölçeklenebilir 
+                  çözümler sunarak Geçiş Kontrol ve PDKS alanında farklı sektörlerden
+                  her ihtiyaca cevap verir. Elektroniğinden yazılımına mühendislik 
+                  anlamında özgün olarak üretilen BigPass, çalışma prensibi
+                  olarak da alanında ilk ve tek durumdadır. 
                 </p>
-                <Link href="/projects/details" className="learn-more-btn">
-                  Read More
+                <Link href="/projects/details-bigpass" className="learn-more-btn">
+                  Detaylar
                 </Link>
               </div>
             </div>
@@ -69,18 +70,13 @@ const OurFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/projects/details">Robotik Sistemler</Link>
+                  <Link href="/projects/details">STEAM Eğitim Teknolojileri</Link>
                 </h3>
                 <p>
-                  Küçük ölçekli üretim tesisleri ve endüstriyel projeler için
-                  yenilikçi robotik çözümler sunuyoruz. Otomatikleştirilmiş
-                  sistemlerimizle, işletmelerin daha hızlı, güvenilir ve düşük
-                  maliyetle çalışmasını sağlıyoruz. Esnek robotik
-                  teknolojilerimiz, her türlü üretim hattına uyum sağlayarak
-                  verimliliği artırır.
+
                 </p>
-                <Link href="/projects/details" className="learn-more-btn">
-                  Read More
+                <Link href="/projects/details-steam" className="learn-more-btn">
+                  Detaylar
                 </Link>
               </div>
             </div>
@@ -101,14 +97,18 @@ const OurFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/projects/details">Eğitim Teknolojileri</Link>
+                  <Link href="/projects/details-robotics"></Link>
                 </h3>
                 <p>
-                  Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod
-                  tempor incididunt ut labore. Ut enim ad minim veniam.
+                Küçük ölçekli üretim tesisleri ve endüstriyel projeler için
+                  yenilikçi robotik çözümler sunuyoruz. Otomatikleştirilmiş
+                  sistemlerimizle, işletmelerin daha hızlı, güvenilir ve düşük
+                  maliyetle çalışmasını sağlıyoruz. Esnek robotik
+                  teknolojilerimiz, her türlü üretim hattına uyum sağlayarak
+                  verimliliği artırır.
                 </p>
-                <Link href="/projects/details" className="learn-more-btn">
-                  Read More
+                <Link href="/projects/details-robotics" className="learn-more-btn">
+                  Detaylar
                 </Link>
               </div>
             </div>

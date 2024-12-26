@@ -52,7 +52,7 @@ const NavbarTwo = () => {
                   src="/images/mergen logo.png"
                   className="main-logo"
                   alt="logo"
-                  width={149}
+                  width={200}
                   height={37}
                   style={{ height: "auto" }}
                 />
@@ -60,7 +60,7 @@ const NavbarTwo = () => {
                   src="/images/mergen logo.png"
                   className="optional-logo"
                   alt="logo"
-                  width={149}
+                  width={200}
                   height={37}
                   style={{ height: "auto" }}
                 />
@@ -108,14 +108,14 @@ const NavbarTwo = () => {
                         currentPath == "/services/two/" && "active"
                       }`}
                     >
-                      Sektörler
+                      Hizmetlerimiz
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/projects/"
+                      href="/services/"
                       className={`nav-link ${
-                        currentPath == "/projects/" && "active"
+                        currentPath == "/services/" && "active"
                       }`}
                     >
                       Projeler

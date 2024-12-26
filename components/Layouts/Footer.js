@@ -21,38 +21,36 @@ const Footer = () => {
                     <Image
                       src="/images/mergen logo.png"
                       alt="image"
-                      width={149}
+                      width={180}
                       height={37}
                       style={{ height: "auto" }}
                     />
                   </Link>
                   <p>
-                    Yerli üretim odaklı teknoloji firmamız, mühendislik ve
-                    yenilikçi çözümlerle iş süreçlerini daha verimli, güvenli ve
-                    sürdürülebilir hale getirmektedir. Her projeye özel
-                    geliştirdiğimiz sistemlerle, müşterilerimize katma değer
-                    sağlayarak sektördeki ihtiyaçlara yön veriyoruz.
+                    Mergen Robotics, yenilikçi Ar-Ge projeleri ve yüksek katma değerli yerli 
+                    teknolojik çözümleriyle faaliyet gösterdiği alanlarda, 
+                    hızlı ve dinamik kadrosuyla ihtiyaçlara özel çözümler sunar.
                   </p>
                 </div>
 
                 <ul className="social">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/mergenrobotics" target="_blank">
                       <i className="flaticon-facebook-letter-logo"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/" target="_blank">
+                    <a href="https://twitter.com/mergenrobotics" target="_blank">
                       <i className="flaticon-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a href="https://www.instagram.com/mergenrobotics" target="_blank">
                       <i className="flaticon-instagram-logo"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/" target="_blank">
+                    <a href="https://www.youtube.com/mergenrobotics" target="_blank">
                       <i className="flaticon-youtube-play-button"></i>
                     </a>
                   </li>
@@ -67,23 +65,26 @@ const Footer = () => {
                 data-aos-duration="1000"
                 data-aos-delay="200"
               >
-                <h3>Services</h3>
+                <h3>Hizmetler</h3>
 
                 <ul className="footer-services-list">
                   <li>
-                    <Link href="/services/details">Product Engineering</Link>
+                    <Link href="/services/details">IoT ve Gömülü Sistem</Link>
                   </li>
                   <li>
-                    <Link href="/services/details">UX/UI Design</Link>
+                    <Link href="/services/details">Geçiş Kontrol Sistemleri</Link>
                   </li>
                   <li>
-                    <Link href="/services/details">Big Data Analysis</Link>
+                    <Link href="/services/details">Eğitim Teknolojileri ve STEAM</Link>
                   </li>
                   <li>
-                    <Link href="/services/details">Desktop Applications</Link>
+                    <Link href="/services/details">Web, Mobil ve Gömülü Yazılım</Link>
                   </li>
                   <li>
-                    <Link href="/services/details">Mobile Applications</Link>
+                    <Link href="/services/details">PCB Tasarım ve Üretim</Link>
+                  </li>
+                  <li>
+                    <Link href="/services/details">3B Tasarım ve Üretim</Link>
                   </li>
                 </ul>
               </div>
@@ -96,7 +97,7 @@ const Footer = () => {
                 data-aos-duration="1000"
                 data-aos-delay="300"
               >
-                <h3>Quick Links</h3>
+                <h3>Bağlantılar</h3>
 
                 <ul className="quick-links-list">
                   <li>
@@ -119,21 +120,21 @@ const Footer = () => {
                 data-aos-duration="1000"
                 data-aos-delay="400"
               >
-                <h3>Contacts</h3>
+                <h3>İletişim</h3>
 
                 <ul className="footer-contact-list">
                   <li>
-                    <span>Address:</span>
-                    ÇAMTEPE Mah. MAHMUT TEVFİK ATAY BULVAR [ 4 A / 1 ] ŞAHİNBEY
-                    / GAZİANTEP
+                    <span>Adres:</span>
+                    Gaziantep Teknopark - Çamtepe Mah. Mahmut Tevfik Atay Bulvarı, No: 4C/205                                      
+                    Şahinbey/Gaziantep
                   </li>
                   <li>
                     <span>Email:</span>
                     info@mergenrobotics.com
                   </li>
                   <li>
-                    <span>Phone:</span>
-                    +44 587 154756
+                    <span>Telefon:</span>
+                    +90 539 9314439
                   </li>
                 </ul>
               </div>
@@ -146,8 +147,7 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-6 col-sm-6">
                 <p>
-                  Copyright &copy;{currentYear} Mergen Robotics. All Rights
-                  Reserved .
+                  Copyright &copy;{currentYear} Mergen Robotics. Tüm hakları saklıdır.
                 </p>
               </div>
             </div>
