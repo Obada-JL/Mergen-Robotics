@@ -108,7 +108,7 @@ const NavbarTwo = () => {
                         currentPath == "/services/two/" && "active"
                       }`}
                     >
-                      Hizmetlerimiz
+                      Hizmetler
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -118,7 +118,7 @@ const NavbarTwo = () => {
                         currentPath == "/services/" && "active"
                       }`}
                     >
-                      Projeler
+                      Ürünler
                     </Link>
                   </li>
                   <li className="nav-item">
