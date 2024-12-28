@@ -70,10 +70,13 @@ const OurFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/projects/details">STEAM Eğitim Teknolojileri</Link>
+                  <Link href="/projects/details">Makine, Otomasyon ve Robotik Sistemler</Link>
                 </h3>
                 <p>
-
+                Üretim tesisleri ve endüstriyel projeler için yenilikçi robotik çözümler sunuyoruz. 
+                Otomatikleştirilmiş sistemlerimizle, işletmelerin daha hızlı, güvenilir ve düşük maliyetle 
+                çalışmasını sağlıyoruz. Esnek robotik teknolojileri ile ihtiyacınıza uygun 
+                makineler ve robotik sistemler üretiyoruz.
                 </p>
                 <Link href="/projects/details-steam" className="learn-more-btn">
                   Detaylar
@@ -97,15 +100,10 @@ const OurFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/projects/details-robotics"></Link>
+                  <Link href="/projects/details-robotics"></Link>STEAM Eğitim Robotları
                 </h3>
                 <p>
-                Küçük ölçekli üretim tesisleri ve endüstriyel projeler için
-                  yenilikçi robotik çözümler sunuyoruz. Otomatikleştirilmiş
-                  sistemlerimizle, işletmelerin daha hızlı, güvenilir ve düşük
-                  maliyetle çalışmasını sağlıyoruz. Esnek robotik
-                  teknolojilerimiz, her türlü üretim hattına uyum sağlayarak
-                  verimliliği artırır.
+                Özgün olarak ürettiğimiz robotik eğitim materyalleri ile Robotik Kodlama eğitimlerine katkı sunuyoruz.
                 </p>
                 <Link href="/projects/details-robotics" className="learn-more-btn">
                   Detaylar
