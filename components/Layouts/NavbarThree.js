@@ -95,23 +95,115 @@ const NavbarThree = () => {
                   </li>
                   <li className="nav-item">
                     <Link
-                      href="/services/two/"
-                      className={`nav-link ${
-                        currentPath == "/services/two/" && "active"
-                      }`}
-                    >
-                      Hizmetlerimiz
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link
                       href="/services/"
                       className={`nav-link ${
                         currentPath == "/services/" && "active"
                       }`}
+                      id="dropdownMenuButton"
+                      data-toggle="dropdown"
                     >
-                      Projeler
+                      Hizmetler
                     </Link>
+                    <div
+                      className="dropdown-menu d-flex flex-column gap-1"
+                      style={{ width: "275px" }}
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <Link
+                        className={`p-1  rounded dropdown-item ${
+                          currentPath == "/services/iot/" && "active text-light"
+                        }`}
+                        href="/services/iot/"
+                      >
+                        IoT ve Gömülü Sistem
+                      </Link>
+                      <Link
+                        className={`p-1  rounded dropdown-item ${
+                          currentPath == "/services/access-control/" &&
+                          "active text-light"
+                        }`}
+                        href="/services/access-control/"
+                      >
+                        Geçiş Kontrol Sistemleri
+                      </Link>
+                      <Link
+                        className={`p-1  rounded nav-link dropdown-item ${
+                          currentPath == "/services/e-technology/" &&
+                          "active text-light"
+                        }`}
+                        href="/services/e-technology/"
+                      >
+                        Eğitim Teknolojileri ve STEAM
+                      </Link>
+                      <Link
+                        className={`p-1  rounded nav-link dropdown-item ${
+                          currentPath == "/services/web/" && "active text-light"
+                        }`}
+                        href="/services/web"
+                      >
+                        Web, Mobil ve Gömülü Yazılım
+                      </Link>
+                      <Link
+                        className={`p-1  rounded nav-link dropdown-item ${
+                          currentPath == "/services/pcb/" && "active text-light"
+                        }`}
+                        href="/services/pcb/"
+                      >
+                        PCB Tasarım ve Üretim
+                      </Link>
+                      <Link
+                        className={`p-1  rounded nav-link dropdown-item ${
+                          currentPath == "/services/3D/" && "active text-light"
+                        }`}
+                        href="/services/3D/"
+                      >
+                        3B Tasarım ve Üretim
+                      </Link>
+                    </div>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      href="/products/"
+                      className={`nav-link ${
+                        currentPath == "/products/" && "active"
+                      }`}
+                    >
+                      Ürünler
+                    </Link>
+                    <div
+                      className="dropdown-menu d-flex flex-column gap-1"
+                      style={{ width: "249px" }}
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <Link
+                        className={`p-1  rounded dropdown-item ${
+                          currentPath == "/products/bigpass/" &&
+                          "active text-light"
+                        }`}
+                        href="/products/bigpass/"
+                      >
+                        BigPass Geçiş Kontrol Sistemi
+                      </Link>
+                      <Link
+                        className={`p-1  rounded nav-link dropdown-item ${
+                          currentPath == "/products/automation/" &&
+                          "active text-light"
+                        }`}
+                        href="/products/automation/"
+                      >
+                        Makine, Otomasyon ve <br />
+                        Robotik Sistemler
+                      </Link>
+                      <Link
+                        className={`p-1  rounded nav-link dropdown-item ${
+                          currentPath == "/products/learning-robots/" &&
+                          "active text-light"
+                        }`}
+                        href="/products/learning-robots/"
+                      >
+                        STEAM Eğitim Robotları
+                      </Link>
+                    </div>
                   </li>
                   <li className="nav-item">
                     <Link

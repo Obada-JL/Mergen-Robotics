@@ -22,10 +22,11 @@ const SecurityAndSurveillance = () => {
 
         <div className="content">
           <p>
-          IoT tabanlı STEM mobil eğitim robotlarıyla teknoloji temelli eğitimde fark yaratıyoruz.
+            IoT tabanlı STEM mobil eğitim robotlarıyla teknoloji temelli
+            eğitimde fark yaratıyoruz.
           </p>
 
-          <Link href="/services/details-edu" className="btn btn-primary">
+          <Link href="/services/e-technology" className="btn btn-primary">
             Daha Fazlası
           </Link>
         </div>

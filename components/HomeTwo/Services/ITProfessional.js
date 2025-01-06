@@ -22,10 +22,12 @@ const ITProfessional = () => {
 
         <div className="content">
           <p>
-            Ürünlerimizin 3B tasarımlarını ve mekanik yapılarını özgün olarak tasarlıyor, prototip üretiminden seri üretime kadar olan tüm üretim sürecini biz yapıyoruz.
+            Ürünlerimizin 3B tasarımlarını ve mekanik yapılarını özgün olarak
+            tasarlıyor, prototip üretiminden seri üretime kadar olan tüm üretim
+            sürecini biz yapıyoruz.
           </p>
 
-          <Link href="/services/details-3d" className="btn btn-primary">
+          <Link href="/services/3D" className="btn btn-primary">
             Daha Fazlası
           </Link>
         </div>

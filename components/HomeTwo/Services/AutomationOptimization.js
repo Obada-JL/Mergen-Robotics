@@ -12,20 +12,16 @@ const AutomationOptimization = () => {
         data-aos-delay="100"
       >
         <div className="image">
-          <Image
-            src="/images/acs.jpg"
-            alt="image"
-            width={569}
-            height={456}
-          />
+          <Image src="/images/acs.jpg" alt="image" width={569} height={456} />
         </div>
 
         <div className="content">
           <p>
-          Güvenli, hızlı ve akıllı geçiş kontrol çözümleriyle işletmelerinizin güvenlik ihtiyaçlarını karşılıyoruz.
+            Güvenli, hızlı ve akıllı geçiş kontrol çözümleriyle işletmelerinizin
+            güvenlik ihtiyaçlarını karşılıyoruz.
           </p>
 
-          <Link href="/services/details-acs" className="btn btn-primary">
+          <Link href="/services/access-control" className="btn btn-primary">
             Daha Fazlası
           </Link>
         </div>

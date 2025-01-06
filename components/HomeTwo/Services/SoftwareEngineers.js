@@ -22,10 +22,12 @@ const SoftwareEngineers = () => {
 
         <div className="content">
           <p>
-Ürünlerimizde kullandığımız Elektronik Kartları biz tasarlıyor, biz üretiyoruz. PCB Kart tasarımı ve PCB dizgi ihtiyaçlarınız için de ayrıca sizelere çözüm ortağı oluyoruz.
+            Ürünlerimizde kullandığımız Elektronik Kartları biz tasarlıyor, biz
+            üretiyoruz. PCB Kart tasarımı ve PCB dizgi ihtiyaçlarınız için de
+            ayrıca sizelere çözüm ortağı oluyoruz.
           </p>
 
-          <Link href="/services/details-pcb" className="btn btn-primary">
+          <Link href="/services/pcb" className="btn btn-primary">
             Daha Fazlası
           </Link>
         </div>

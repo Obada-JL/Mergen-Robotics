@@ -1,10 +1,10 @@
 import React from "react";
 import NavbarTwo from "../../components/Layouts/NavbarTwo";
 import PageBanner from "../../components/Common/PageBanner";
-import ServicesContent from "../../components/Services/ServicesContent";
+import Services from "../../components/HomeTwo/Services";
 import Footer from "../../components/Layouts/Footer";
 
-const Services = () => {
+const ServicesTwo = () => {
   return (
     <>
       <NavbarTwo />
@@ -14,14 +14,13 @@ const Services = () => {
         homePageUrl="/"
         homePageText="Anasayfa"
         activePageText="Hizmetlerimiz"
-        bgImg="/images/services.jpeg"
+        bgImg="/images/services.jpg"
       />
-
-      <ServicesContent />
+      <Services />
 
       <Footer />
     </>
   );
 };
 
-export default Services;
+export default ServicesTwo;

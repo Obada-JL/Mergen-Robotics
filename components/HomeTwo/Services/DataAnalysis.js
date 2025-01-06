@@ -23,10 +23,10 @@ const DataAnalysis = () => {
 
         <div className="content">
           <p>
-          Akıllı cihazlardan endüstriyel otomasyona 
-          kadar geniş bir yelpazede IoT ve gömülü sistem projeleri geliştiriyoruz.
+            Akıllı cihazlardan endüstriyel otomasyona kadar geniş bir yelpazede
+            IoT ve gömülü sistem projeleri geliştiriyoruz.
           </p>
-          <Link href="/services/details-iot" className="btn btn-primary">
+          <Link href="/services/iot" className="btn btn-primary">
             Daha Fazlası
           </Link>
         </div>

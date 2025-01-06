@@ -10,8 +10,8 @@ const OurFeaturedSolutions = () => {
           <div className="section-title">
             <h2>Ürünlerimiz</h2>
             <p>
-              Çözümlerimiz ile faaliyet gösterdiğimiz alanlarda özgün ve yenilikçi sistemler
-              geliştiriyoruz.
+              Çözümlerimiz ile faaliyet gösterdiğimiz alanlarda özgün ve
+              yenilikçi sistemler geliştiriyoruz.
             </p>
           </div>
 
@@ -32,7 +32,9 @@ const OurFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/projects/details-bigpass">BigPass Geçiş Kontrol Sistemi</Link>
+                  <Link href="/projects/details-bigpass">
+                    BigPass Geçiş Kontrol Sistemi
+                  </Link>
                 </h3>
                 <p>
                   {/* Güvenliği en üst düzeye çıkaran kartlı geçiş sistemlerimiz,
@@ -40,16 +42,24 @@ const OurFeaturedSolutions = () => {
                   yönetmelerini sağlar. Her işletmeye özel tasarlanabilen
                   çözümlerimizle, çalışanlar ve ziyaretçiler için güvenli, hızlı
                   ve etkili bir erişim kontrolü sunuyoruz. */}
-                  Güncel teknolojik altyapısı ve kolay entegrasyonu ile güvenliği ön planda
-                  tutarak işletmelerin ve kamu alanlarının erişim kontrollerini 
-                  kolay şekilde yönetmelerini sağlar. BigPass Esnek ve ölçeklenebilir 
-                  çözümler sunarak Geçiş Kontrol ve PDKS alanında farklı sektörlerden
-                  her ihtiyaca cevap verir. Elektroniğinden yazılımına mühendislik 
-                  anlamında özgün olarak üretilen BigPass, çalışma prensibi
-                  olarak da alanında ilk ve tek durumdadır. 
+                  Güncel teknolojik altyapısı ve kolay entegrasyonu ile
+                  güvenliği ön planda tutarak işletmelerin ve kamu alanlarının
+                  erişim kontrollerini kolay şekilde yönetmelerini sağlar.
+                  BigPass Esnek ve ölçeklenebilir çözümler sunarak Geçiş Kontrol
+                  ve PDKS alanında farklı sektörlerden her ihtiyaca cevap verir.
+                  Elektroniğinden yazılımına mühendislik anlamında özgün olarak
+                  üretilen BigPass, çalışma prensibi olarak da alanında ilk ve
+                  tek durumdadır.
                 </p>
-                <Link href="/projects/details-bigpass" className="learn-more-btn">
+                <Link href="/products/bigpass/" className="learn-more-btn">
                   Detaylar
+                </Link>
+                <Link
+                  href="https://bigpass.tr/"
+                  className="learn-more-btn ms-3"
+                  target="_blank"
+                >
+                  BigPass Web Sayfası
                 </Link>
               </div>
             </div>
@@ -70,15 +80,19 @@ const OurFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/projects/details">Makine, Otomasyon ve Robotik Sistemler</Link>
+                  <Link href="/projects/details">
+                    Makine, Otomasyon ve Robotik Sistemler
+                  </Link>
                 </h3>
                 <p>
-                Üretim tesisleri ve endüstriyel projeler için yenilikçi robotik çözümler sunuyoruz. 
-                Otomatikleştirilmiş sistemlerimizle, işletmelerin daha hızlı, güvenilir ve düşük maliyetle 
-                çalışmasını sağlıyoruz. Esnek robotik teknolojileri ile ihtiyacınıza uygun 
-                makineler ve robotik sistemler üretiyoruz.
+                  Üretim tesisleri ve endüstriyel projeler için yenilikçi
+                  robotik çözümler sunuyoruz. Otomatikleştirilmiş
+                  sistemlerimizle, işletmelerin daha hızlı, güvenilir ve düşük
+                  maliyetle çalışmasını sağlıyoruz. Esnek robotik teknolojileri
+                  ile ihtiyacınıza uygun makineler ve robotik sistemler
+                  üretiyoruz.
                 </p>
-                <Link href="/projects/details-steam" className="learn-more-btn">
+                <Link href="/products/automation" className="learn-more-btn">
                   Detaylar
                 </Link>
               </div>
@@ -100,12 +114,17 @@ const OurFeaturedSolutions = () => {
                   />
                 </div>
                 <h3>
-                  <Link href="/projects/details-robotics"></Link>STEAM Eğitim Robotları
+                  <Link href="/projects/details-robotics"></Link>STEAM Eğitim
+                  Robotları
                 </h3>
                 <p>
-                Özgün olarak ürettiğimiz robotik eğitim materyalleri ile Robotik Kodlama eğitimlerine katkı sunuyoruz.
+                  Özgün olarak ürettiğimiz robotik eğitim materyalleri ile
+                  Robotik Kodlama eğitimlerine katkı sunuyoruz.
                 </p>
-                <Link href="/projects/details-robotics" className="learn-more-btn">
+                <Link
+                  href="/products/learning-robots"
+                  className="learn-more-btn"
+                >
                   Detaylar
                 </Link>
               </div>

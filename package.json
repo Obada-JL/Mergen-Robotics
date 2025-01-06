@@ -11,6 +11,7 @@
     "author": "EnvyTheme.com",
     "license": "ISC",
     "dependencies": {
+        "@lottiefiles/dotlottie-react": "^0.12.1",
         "aos": "^2.3.4",
         "axios": "^1.6.7",
         "fslightbox-react": "^1.7.6",

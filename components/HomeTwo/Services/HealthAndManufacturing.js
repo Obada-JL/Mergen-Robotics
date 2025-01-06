@@ -22,10 +22,12 @@ const HealthAndManufacturing = () => {
 
         <div className="content">
           <p>
-Üretmiş olduğumuz her türlü ürün ve hizmette kendi yazılımlarımızı kullanıyoruz. İhtiyacınıza özel web yazılım, mobil uygulama ve gömülü yazılım projelerini birlikte geliştiriyoruz.
+            Üretmiş olduğumuz her türlü ürün ve hizmette kendi yazılımlarımızı
+            kullanıyoruz. İhtiyacınıza özel web yazılım, mobil uygulama ve
+            gömülü yazılım projelerini birlikte geliştiriyoruz.
           </p>
 
-          <Link href="/services/details-software" className="btn btn-primary">
+          <Link href="/services/web" className="btn btn-primary">
             Daha Fazlası
           </Link>
         </div>
