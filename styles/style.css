@@ -10757,5 +10757,40 @@ Footer Wrap Area CSS
   z-index: -1;
   animation: animationFramesOne 20s infinite linear;
 }
+.serviceIcon {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(
+    to left bottom,
+    #dee4f3,
+    #e7eaf6,
+    #f0f1f9,
+    #f8f8fc,
+    #ffffff
+  );
+  text-align: center;
+  line-height: 55px;
+  border-radius: 5px;
+  margin-right: 12px;
+  color: rgb(12, 132, 121);
+}
+/* Style dropdown links */
+.dropdown-menu .dropdown-item {
+  color: black !important;
+}
 
+/* Hover state */
+.dropdown-menu .dropdown-item:hover {
+  color: white !important;
+  /* background-color: transparent; */
+  background-color: rgb(12, 132, 121) !important;
+}
+
+/* Active/Selected state */
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item.active {
+  color: rgb(12, 132, 121) !important;
+  background-color: transparent !important;
+}
 /*End "Home Demo - 6", "Home Demo - 7" & "Home Demo - 8" Style CSS*/ /*# sourceMappingURL=style.css.map */

@@ -12,7 +12,12 @@ const AutomationOptimization = () => {
         data-aos-delay="100"
       >
         <div className="image">
-          <Image src="/images/acs.jpg" alt="image" width={569} height={456} />
+          <Image
+            src="/images/access-control-vector.png"
+            alt="image"
+            width={569}
+            height={456}
+          />
         </div>
 
         <div className="content">

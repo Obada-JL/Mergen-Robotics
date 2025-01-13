@@ -25,7 +25,7 @@ const OurFeaturedSolutions = () => {
               >
                 <div className="icon">
                   <Image
-                    src="/images/icon1.png"
+                    src="/images/easy-access-icon.png"
                     alt="image"
                     width={60}
                     height={60}
@@ -73,7 +73,7 @@ const OurFeaturedSolutions = () => {
               >
                 <div className="icon">
                   <Image
-                    src="/images/icon2.png"
+                    src="/images/automation-icon.png"
                     alt="image"
                     width={60}
                     height={60}
@@ -106,8 +106,14 @@ const OurFeaturedSolutions = () => {
                 data-aos-delay="300"
               >
                 <div className="icon">
-                  <Image
+                  {/* <Image
                     src="/images/icon3.png"
+                    alt="image"
+                    width={60}
+                    height={60}
+                  /> */}
+                  <Image
+                    src="/images/education-robots-icon.png"
                     alt="image"
                     width={60}
                     height={60}

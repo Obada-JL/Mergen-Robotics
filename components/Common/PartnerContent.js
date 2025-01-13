@@ -9,11 +9,12 @@ const PartnerContent = () => {
           <div className="section-title">
             <h2>Referanslarımız</h2>
             <p>
-              Faaliyet gösterdiğimiz alanlarda çözüm ortağı olduğumuz müşteri ve partnerlerimiz
+              Faaliyet gösterdiğimiz alanlarda çözüm ortağı olduğumuz müşteri ve
+              partnerlerimiz
             </p>
           </div>
 
-          <div className="customers-partner-list">
+          <div className="customers-partner-list justify-content-center">
             <div
               className="partner-item"
               data-aos="fade-in"

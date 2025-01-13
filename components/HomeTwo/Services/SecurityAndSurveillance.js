@@ -13,7 +13,7 @@ const SecurityAndSurveillance = () => {
       >
         <div className="image">
           <Image
-            src="/images/services-img1.png"
+            src="/images/steam-vector-removebg-preview.png"
             alt="image"
             width={569}
             height={456}

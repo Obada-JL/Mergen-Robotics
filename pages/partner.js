@@ -11,16 +11,16 @@ export default function Partner() {
       <NavbarTwo />
 
       <PageBanner
-        pageTitle="Partner"
+        pageTitle="Refernaslarımız"
         homePageUrl="/"
-        homePageText="Home"
-        activePageText="Partner"
-        bgImg="/images/page-title-bg2.jpg"
+        homePageText="Anasayfa"
+        activePageText="Refernaslarımız"
+        bgImg="/images/references.jpg"
       />
 
       <PartnerContent />
 
-      <PartnerSlider />
+      {/* <PartnerSlider /> */}
 
       <Footer />
     </>

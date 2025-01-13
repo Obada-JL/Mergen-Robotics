@@ -13,7 +13,7 @@ const DataAnalysis = () => {
       >
         <div className="image">
           <Image
-            src="/images/iot.png"
+            src="/images/iot-vector.png"
             alt="image"
             width={700}
             height={456}

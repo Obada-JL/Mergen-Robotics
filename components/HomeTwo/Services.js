@@ -264,8 +264,10 @@ const Services = () => {
               {/* Yerli çözümlerle farklı sektörlere yönelik yenilikçi ve
               sürdürülebilir sistemler sunarak, iş süreçlerini daha verimli ve
               güvenli hale getiriyoruz. */}
-              Mergen Robotics olarak, teknolojinin her alanında yenilikçi ve yüksek katma değerli çözümler sunuyoruz. 
-              Uzman ekibimizin sağladığı hizmet ve ürünler ile, bireysel ve kurumsal ihtiyaçlara özel, dünya standartlarında çözümler üretiyoruz.
+              Mergen Robotics olarak, teknolojinin her alanında yenilikçi ve
+              yüksek katma değerli çözümler sunuyoruz. Uzman ekibimizin
+              sağladığı hizmet ve ürünler ile, bireysel ve kurumsal ihtiyaçlara
+              özel, dünya standartlarında çözümler üretiyoruz.
             </p>
           </div>
 
@@ -274,50 +276,106 @@ const Services = () => {
               <div className="col-lg-4 col-md-4">
                 <ul className="tabs">
                   <li
-                    className={`list ${activeTab === 0 ? "current" : ""}`}
+                    className={`list ${
+                      activeTab === 0 ? "current" : ""
+                    } d-flex align-items-center gap-3`}
                     onClick={() => handleTabClick(0)}
                   >
-                    <i className="flaticon-income"></i>
+                    <div className="d-flex serviceIcon justify-content-center align-items-center">
+                      <Image
+                        src="./images/iot-icon.png"
+                        width={40}
+                        height={40}
+                      />
+                    </div>
+
                     <span>IoT ve Gömülü Sistem</span>
                   </li>
 
                   <li
-                    className={`list ${activeTab === 1 ? "current" : ""}`}
+                    className={`list ${
+                      activeTab === 1 ? "current" : ""
+                    } d-flex align-items-center`}
                     onClick={() => handleTabClick(1)}
                   >
-                    <i className="flaticon-automatic"></i>
+                    {/* <i className="flaticon-automatic"></i> */}
+                    <div className="d-flex serviceIcon justify-content-center align-items-center">
+                      <Image
+                        src="./images/access-control-icon.png"
+                        width={40}
+                        height={40}
+                      />
+                    </div>
+
                     <span>Geçiş Kontrol Sistemleri</span>
                   </li>
 
                   <li
-                    className={`list ${activeTab === 2 ? "current" : ""}`}
+                    className={`list ${
+                      activeTab === 2 ? "current" : ""
+                    } d-flex align-items-center`}
                     onClick={() => handleTabClick(2)}
                   >
-                    <i className="flaticon-locked"></i>
+                    {/* <i className="flaticon-locked"></i> */}
+                    <div className="d-flex serviceIcon justify-content-center align-items-center">
+                      <Image
+                        src="./images/online-physics.png"
+                        width={40}
+                        height={40}
+                      />
+                    </div>
+
                     <span>Eğitim Teknolojileri ve STEAM</span>
                   </li>
 
                   <li
-                    className={`list ${activeTab === 3 ? "current" : ""}`}
+                    className={`list ${
+                      activeTab === 3 ? "current" : ""
+                    } d-flex align-items-center`}
                     onClick={() => handleTabClick(3)}
                   >
-                    <i className="flaticon-molecular"></i>
+                    {/* <i className="flaticon-molecular"></i> */}
+                    <div className="d-flex serviceIcon justify-content-center align-items-center">
+                      <Image
+                        src="./images/software-development.png"
+                        width={40}
+                        height={40}
+                      />
+                    </div>
                     <span>Web, Mobil ve Gömülü Yazılım</span>
                   </li>
 
                   <li
-                    className={`list ${activeTab === 4 ? "current" : ""}`}
+                    className={`list ${
+                      activeTab === 4 ? "current" : ""
+                    } d-flex align-items-center`}
                     onClick={() => handleTabClick(4)}
                   >
-                    <i className="flaticon-gear"></i>
+                    <div className="d-flex serviceIcon justify-content-center align-items-center">
+                      <Image
+                        src="./images/technology.png"
+                        width={40}
+                        height={40}
+                      />
+                    </div>
+                    {/* <i className="flaticon-gear"></i> */}
                     <span>PCB Tasarım ve Üretim</span>
                   </li>
 
                   <li
-                    className={`list ${activeTab === 5 ? "current" : ""}`}
+                    className={`list ${
+                      activeTab === 5 ? "current" : ""
+                    } d-flex align-items-center`}
                     onClick={() => handleTabClick(5)}
                   >
-                    <i className="flaticon-ceo"></i>
+                    <div className="d-flex serviceIcon justify-content-center align-items-center">
+                      <Image
+                        src="./images/3d-printing.png"
+                        width={40}
+                        height={40}
+                      />
+                    </div>
+                    {/* <i className="flaticon-ceo"></i> */}
                     <span>3B Tasarım ve Üretim</span>
                   </li>
                 </ul>

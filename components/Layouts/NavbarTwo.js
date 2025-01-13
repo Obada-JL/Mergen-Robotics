@@ -213,6 +213,16 @@ const NavbarTwo = () => {
                   </li>
                   <li className="nav-item">
                     <Link
+                      href="/partner/"
+                      className={`nav-link ${
+                        currentPath == "/partner/" && "active"
+                      }`}
+                    >
+                      Refernaslarımız
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
                       href="/contact/"
                       className={`nav-link ${
                         currentPath == "/contact/" && "active"

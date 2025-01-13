@@ -16,10 +16,10 @@ const AboutUs = () => {
                 data-aos-delay="400"
               >
                 <Image
-                  src="/images/about/about3.png"
+                  src="/images/about-us-vector.png"
                   alt="image"
-                  width={460}
-                  height={493}
+                  width={500}
+                  height={400}
                 />
               </div>
             </div>
@@ -33,7 +33,9 @@ const AboutUs = () => {
               >
                 <h2>Biz Kimiz?</h2>
                 <p>
-                  Mergen Robotics’in vizyonunu, değerlerini ve sahip olduğu yetenekleriyle müşterilerine olan katkılarını daha yakından inceleyin.
+                  Mergen Robotics’in vizyonunu, değerlerini ve sahip olduğu
+                  yetenekleriyle müşterilerine olan katkılarını daha yakından
+                  inceleyin.
                 </p>
 
                 <ul className="features-list">
@@ -49,22 +51,26 @@ const AboutUs = () => {
                   </li>
                   <li>
                     <span>
-                      <i className="flaticon-tick"></i> Yenilikçi, Üstün Teknoloji
+                      <i className="flaticon-tick"></i> Yenilikçi, Üstün
+                      Teknoloji
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="flaticon-tick"></i> Güvenilir ve Kullanıcı Dostu Ürünler
+                      <i className="flaticon-tick"></i> Güvenilir ve Kullanıcı
+                      Dostu Ürünler
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="flaticon-tick"></i> Endüstriyel Tasarım ve Üretim Yetkinliği
+                      <i className="flaticon-tick"></i> Endüstriyel Tasarım ve
+                      Üretim Yetkinliği
                     </span>
                   </li>
                   <li>
                     <span>
-                      <i className="flaticon-tick"></i> Danışmanlık ve Eğitim Hizmetleri
+                      <i className="flaticon-tick"></i> Danışmanlık ve Eğitim
+                      Hizmetleri
                     </span>
                   </li>
                 </ul>

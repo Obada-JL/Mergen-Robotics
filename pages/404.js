@@ -11,10 +11,10 @@ export default function Error() {
             <div className="container">
               <div className="error-content">
                 <Image
-                  src="/images/404.png"
+                  src="/images/404-vector.png"
                   alt="error"
                   width={440}
-                  height={244}
+                  height={300}
                 />
 
                 <h3>Page Not Found</h3>
